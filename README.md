@@ -116,5 +116,5 @@ El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de
 <div align="center">
   <i>A continuación se muestra el funcionamiento de la interfaz.</i>
   <br><br>
-  <img src="URL_DE_TU_IMAGEN_O_GIF_AQUI" width="85%" alt="Demostración de la Interfaz" />
+  <img src="https://youtu.be/AGz-Q6Aq3pw" width="85%" alt="Demostración de la Interfaz" />
 </div>
