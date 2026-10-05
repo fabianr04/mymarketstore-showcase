@@ -4,7 +4,7 @@
   <h3>Sistema de Planificación de Recursos Empresariales (ERP)</h3>
   
   <p align="center">
-    <img src="https://img.shields.io/badge/Estado-Pre--Producción-00A2ED?style=flat-square&logoColor=white" alt="Estado" />
+    <img src="https://img.shields.io/badge/Estado-Producción-00A2ED?style=flat-square&logoColor=white" alt="Estado" />
     <img src="https://img.shields.io/badge/Arquitectura-KMP_|_MVI-0A192F?style=flat-square&logoColor=white" alt="Arquitectura" />
     <img src="https://img.shields.io/badge/Despliegue-Contabo_VPS-E3E9F0?style=flat-square&logoColor=0A192F&labelColor=E3E9F0&color=E3E9F0" alt="Deploy" />
   </p>
