@@ -56,7 +56,7 @@ Para este desarrollo, se seleccionó un ecosistema robusto basado en **Kotlin**,
 
 <h2>MÓDULOS DEL SISTEMA</h2>
 
-El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de negocio, incluyendo soporte para geolocalización a través de mapas[cite: 1] y seguimiento detallado a través del historial operativo[cite: 1]:
+El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de negocio, incluyendo soporte para geolocalización a través de mapas y seguimiento detallado a través del historial operativo:
 
 <table width="100%">
   <tr>
@@ -130,5 +130,7 @@ El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de
 <div align="center">
   <i>A continuación se muestra el funcionamiento de la interfaz.</i>
   <br><br>
-  <img src="https://youtu.be/AGz-Q6Aq3pw" width="85%" alt="Demostración de la Interfaz" />
+  <a href="https://youtu.be/AGz-Q6Aq3pw" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-Ver_Demostración-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Demostración en YouTube" />
+  </a>
 </div>
