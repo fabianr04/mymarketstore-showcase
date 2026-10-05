@@ -62,21 +62,21 @@ El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de
   <tr>
     <td width="50%">
       <b>Ventas y Catálogo</b><br>
-      Gestión estructurada de perfiles de clientes[cite: 1] y productos[cite: 1], un motor integral para la creación de órdenes[cite: 1] y la aplicación dinámica de promociones[cite: 1].
+      Gestión estructurada de perfiles de clientes y productos, un motor integral para la creación de órdenes y la aplicación dinámica de promociones.
     </td>
     <td width="50%">
       <b>Finanzas y Tesorería</b><br>
-      Módulo integral para la gestión de cuentas en bancos[cite: 1], registro y procesamiento de pagos[cite: 1], manejo de tasas actualizadas[cite: 1] y control del flujo de cobranzas[cite: 1].
+      Módulo integral para la gestión de cuentas en bancos, registro y procesamiento de pagos, manejo de tasas actualizadas y control del flujo de cobranzas.
     </td>
   </tr>
   <tr>
     <td width="50%">
       <b>Almacén y Logística</b><br>
-      Control estricto de inventario en almacén[cite: 1], incluyendo dominio de productos almacenados[cite: 1], y una sección especializada para la gestión de devoluciones[cite: 1].
+      Control estricto de inventario en almacén, incluyendo dominio de productos almacenados, y una sección especializada para la gestión de devoluciones.
     </td>
     <td width="50%">
       <b>Administración y Analítica</b><br>
-      Seguridad basada en flujos de login[cite: 1] y administración de usuarios[cite: 1], complementado con un panel de presentación de estadísticas[cite: 1] para la toma de decisiones.
+      Seguridad basada en flujos de login y administración de usuarios, complementado con un panel de presentación de estadísticas para la toma de decisiones.
     </td>
   </tr>
 </table>
@@ -102,9 +102,16 @@ El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de
 </details>
 
 <details>
-  <summary><kbd>Ver detalle</kbd> <b>Migración de Infraestructura de Almacenamiento</b></summary>
+  <summary><kbd>Ver detalle</kbd> <b>Arquitectura de Infraestructura y Almacenamiento</b></summary>
   <blockquote>
-    Se reestructuró la capa de persistencia de archivos migrando hacia <b>Supabase Storage buckets</b> desplegado de forma centralizada en un VPS de Contabo, garantizando mayor velocidad de respuesta en la carga de imágenes de catálogo y optimizando costos operativos.
+    El sistema fue diseñado con una arquitectura de responsabilidades separadas: el servidor backend opera desde un <b>VPS de Contabo</b>, dedicado exclusivamente a procesar las transacciones y la lógica de negocio del cliente, mientras que la gestión y persistencia de imágenes se maneja a través de <b>Supabase Storage</b>. Este diseño distribuido garantiza una mayor velocidad de respuesta en la carga del catálogo y optimiza el rendimiento general del servidor.
+  </blockquote>
+</details>
+
+<details>
+  <summary><kbd>Ver detalle</kbd> <b>Integración Multirrol y Sincronización Operativa</b></summary>
+  <blockquote>
+    El sistema centraliza la operación de toda la empresa asignando herramientas y accesos específicos para cada perfil. Conecta de manera fluida a los <b>vendedores</b> (generación de pedidos), <b>almacenistas y despachadores</b> (gestión de inventario y logística de entrega), personal de <b>facturación y cobranza</b> (procesamiento y conciliación de pagos), y a la <b>gerencia</b> (visibilidad global y toma de decisiones). Esta estructura garantiza que todos los departamentos trabajen sincronizados sobre la misma información en tiempo real, eliminando fricciones interdepartamentales.
   </blockquote>
 </details>
 
