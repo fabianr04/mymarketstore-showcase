@@ -6,7 +6,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Estado-Pre--Producción-00A2ED?style=flat-square&logoColor=white" alt="Estado" />
     <img src="https://img.shields.io/badge/Arquitectura-KMP_|_MVI-0A192F?style=flat-square&logoColor=white" alt="Arquitectura" />
-    <img src="https://img.shields.io/badge/Despliegue-Render_|_Aiven-E3E9F0?style=flat-square&logoColor=0A192F&labelColor=E3E9F0&color=E3E9F0" alt="Deploy" />
+    <img src="https://img.shields.io/badge/Despliegue-Contabo_VPS-E3E9F0?style=flat-square&logoColor=0A192F&labelColor=E3E9F0&color=E3E9F0" alt="Deploy" />
   </p>
 
   <br>
@@ -46,8 +46,8 @@ Para este desarrollo, se seleccionó un ecosistema robusto basado en **Kotlin**,
     <td width="33%" align="center">
       <b>Infraestructura & Seguridad</b><br><br>
       <img src="https://img.shields.io/badge/JWT_&_OAuth_2.0-808080?style=flat-square&logo=jsonwebtokens&logoColor=white" /> <br>
-      <img src="https://img.shields.io/badge/Render_|_Aiven-808080?style=flat-square&logo=render&logoColor=white" /> <br>
-      <img src="https://img.shields.io/badge/Google_Drive_API-808080?style=flat-square&logo=googledrive&logoColor=white" />
+      <img src="https://img.shields.io/badge/Contabo_VPS-808080?style=flat-square&logo=linux&logoColor=white" /> <br>
+      <img src="https://img.shields.io/badge/Supabase_Storage-808080?style=flat-square&logo=supabase&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -56,27 +56,27 @@ Para este desarrollo, se seleccionó un ecosistema robusto basado en **Kotlin**,
 
 <h2>MÓDULOS DEL SISTEMA</h2>
 
-El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de negocio:
+El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de negocio, incluyendo soporte para geolocalización a través de mapas[cite: 1] y seguimiento detallado a través del historial operativo[cite: 1]:
 
 <table width="100%">
   <tr>
     <td width="50%">
-      <b>Gestión de Clientes y Productos</b><br>
-      Control detallado de perfiles, catálogos y disponibilidad.
+      <b>Ventas y Catálogo</b><br>
+      Gestión estructurada de perfiles de clientes[cite: 1] y productos[cite: 1], un motor integral para la creación de órdenes[cite: 1] y la aplicación dinámica de promociones[cite: 1].
     </td>
     <td width="50%">
-      <b>Motor de Órdenes y Promociones</b><br>
-      Creación de pedidos con aplicación dinámica de descuentos y reglas de negocio.
+      <b>Finanzas y Tesorería</b><br>
+      Módulo integral para la gestión de cuentas en bancos[cite: 1], registro y procesamiento de pagos[cite: 1], manejo de tasas actualizadas[cite: 1] y control del flujo de cobranzas[cite: 1].
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <b>Finanzas</b><br>
-      Módulo de gestión de bancos y registro estructurado de pagos (control interno).
+      <b>Almacén y Logística</b><br>
+      Control estricto de inventario en almacén[cite: 1], incluyendo dominio de productos almacenados[cite: 1], y una sección especializada para la gestión de devoluciones[cite: 1].
     </td>
     <td width="50%">
-      <b>Logística & Dashboard</b><br>
-      Seguimiento de estatus en tiempo real y muestra de estadísticas de rendimiento.
+      <b>Administración y Analítica</b><br>
+      Seguridad basada en flujos de login[cite: 1] y administración de usuarios[cite: 1], complementado con un panel de presentación de estadísticas[cite: 1] para la toma de decisiones.
     </td>
   </tr>
 </table>
@@ -101,13 +101,20 @@ El ERP está segmentado en módulos interconectados para cubrir todo el ciclo de
   </blockquote>
 </details>
 
+<details>
+  <summary><kbd>Ver detalle</kbd> <b>Migración de Infraestructura de Almacenamiento</b></summary>
+  <blockquote>
+    Se reestructuró la capa de persistencia de archivos migrando hacia <b>Supabase Storage buckets</b> desplegado de forma centralizada en un VPS de Contabo, garantizando mayor velocidad de respuesta en la carga de imágenes de catálogo y optimizando costos operativos.
+  </blockquote>
+</details>
+
 <br>
 
 <h2>IMPACTO EN EL NEGOCIO</h2>
 
-* <kbd>Centralización</kbd> **Única Fuente de la Verdad:** Eliminación de hojas de cálculo dispersas, centralizando todos los datos.
-* <kbd>Optimización</kbd> **Mejora de Flujos Operativos:** Reducción de tiempos de gestión manual mediante automatización.
-* <kbd>Relación</kbd> **Excelencia en Atención al Cliente:** Información certera al tomar pedidos, mejorando el servicio ofrecido.
+* <kbd>Centralización</kbd> **Única Fuente de la Verdad:** Eliminación de hojas de cálculo dispersas, centralizando todos los datos operativos y el catálogo visual.
+* <kbd>Optimización</kbd> **Mejora de Flujos Operativos:** Reducción de tiempos de gestión manual mediante automatización y un backend autónomo.
+* <kbd>Relación</kbd> **Excelencia en Atención al Cliente:** Información certera al tomar pedidos, mejorando el servicio ofrecido y permitiendo devoluciones rápidas.
 
 <br>
 
